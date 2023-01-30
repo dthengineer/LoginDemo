@@ -9,8 +9,6 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "LoginDatabase", "LoginDatab
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLayer", "DataLayer\DataLayer.csproj", "{BA5E5EEE-553B-4C00-A5B1-6859C8FD8217}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{8D6C52E1-D528-4170-84A3-823C5FA37302}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StorageLayer", "StorageLayer\StorageLayer.csproj", "{B2A12C80-E616-475E-BA27-C094D009CF0C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2ECC2D2D-15BE-41B2-AA6C-2A009F2550BD}"
@@ -38,10 +36,6 @@ Global
 		{BA5E5EEE-553B-4C00-A5B1-6859C8FD8217}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA5E5EEE-553B-4C00-A5B1-6859C8FD8217}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA5E5EEE-553B-4C00-A5B1-6859C8FD8217}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8D6C52E1-D528-4170-84A3-823C5FA37302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8D6C52E1-D528-4170-84A3-823C5FA37302}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8D6C52E1-D528-4170-84A3-823C5FA37302}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8D6C52E1-D528-4170-84A3-823C5FA37302}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B2A12C80-E616-475E-BA27-C094D009CF0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B2A12C80-E616-475E-BA27-C094D009CF0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2A12C80-E616-475E-BA27-C094D009CF0C}.Release|Any CPU.ActiveCfg = Release|Any CPU

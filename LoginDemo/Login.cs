@@ -19,7 +19,6 @@ namespace LoginDemo
             {
                 promptForName();
             } while (true);
-
         }
 
         private void promptForName()
@@ -53,7 +52,6 @@ namespace LoginDemo
                     }
                 }
             }
-
         }
 
         private UserData? getUser(string? _userName)
@@ -109,14 +107,6 @@ namespace LoginDemo
             }
         }
 
-        private void storeUserPasswords(UserPasswordList _usrPwdList)
-        {
-            if (dataSource != null)
-            {
-                dataSource.StoreUserPasswords(_usrPwdList);
-            }
-        }
-
         private void answerFlow(IEnumerable<UserPasswordData> _passwords)
         {
             if (_passwords != null)
@@ -150,6 +140,13 @@ namespace LoginDemo
                 }
             }
             //spec 3.3:  Go back to the Prompt for Name flow when finished
+        }
+        private void storeUserPasswords(UserPasswordList _usrPwdList)
+        {
+            if (dataSource != null)
+            {
+                dataSource.StoreUserPasswords(_usrPwdList);
+            }
         }
         private string getQuestion(int _questionID)
         {
